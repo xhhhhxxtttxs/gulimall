@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -25,7 +26,7 @@
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="gulimall" target="1.5" />
-      <module name="gulimall-common" target="8" />
+      <module name="gulimall-common" target="1.8" />
       <module name="gulimall-coupon" target="1.8" />
       <module name="gulimall-gateway" target="1.8" />
       <module name="gulimall-gateway1" target="1.8" />
